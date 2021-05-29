@@ -1,0 +1,13 @@
+@media screen and (max-width: 1024px) {
+    .footer__links {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer__links {
+        display: flex;
+        flex-direction: column;
+    }
+}
