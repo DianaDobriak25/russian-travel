@@ -7,7 +7,7 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767.5px) {
     .lead__caption {
         margin-left: 16px;
     }

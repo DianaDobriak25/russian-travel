@@ -2,7 +2,7 @@
   width: calc(1280px - 96px);
   margin: 0 auto 92px;
   position: relative;
-  height: 740px;
+  min-height: 740px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,21 +26,21 @@
   background-color: #2A2C2F;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279.5px) {
   .cover {
     margin: 0 0 92px;
     width: 100%;
-    height: calc(100vw * 0.625);
+    min-height: calc(100vw * 0.625);
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023.5px) {
   .cover {
     margin-bottom: 88px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767.5px) {
   .cover {
     margin-bottom: 64px;
   }
