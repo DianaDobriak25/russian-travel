@@ -2,3 +2,9 @@
     width: 100%;
 }
 
+@media (max-width: 768px) {
+    .lead__image {
+        width: calc(100% + 16px);
+    }
+}
+
